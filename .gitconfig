@@ -1,0 +1,23 @@
+[user]
+	name = Maxime Bus
+	email = 
+[alias]
+	st = status
+	cot = checkout --track
+	cob = checkout -b
+	co = checkout
+	ci = commit
+	cia = commit --amend
+	br = branch
+	fap = fetch --all --prune
+    rb = rebase
+    rbi = rebase -i
+	rbc = rebase --continue
+    rbs = rebase --skip
+    rba = rebase --abort
+    dfc = diff --cached
+    df = diff
+[pull]
+	rebase = preserve
+[push]
+	default = simple
